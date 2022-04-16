@@ -11,7 +11,7 @@ import java.util.List;
 
 @RequestMapping("/topic")
 @Tag(name="Topic resource operations")
-public interface KafkaConsumerController {
+public interface KafkaTopicController {
 
     @GetMapping
     @Operation(description = "Return all kafka topics.")
